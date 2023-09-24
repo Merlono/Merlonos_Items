@@ -16,6 +16,9 @@ public class Moditems {
     public static final RegistryObject<Item> RAW_STAILIUM = ITEMS.register( "raw_stailium",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> HILT = ITEMS.register( "hilt",
+            () ->  new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

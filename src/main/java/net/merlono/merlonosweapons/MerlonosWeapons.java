@@ -1,6 +1,7 @@
 package net.merlono.merlonosweapons;
 
 import com.mojang.logging.LogUtils;
+import net.merlono.merlonosweapons.block.ModBlocks;
 import net.merlono.merlonosweapons.item.ModCreativeModTabs;
 import net.merlono.merlonosweapons.item.Moditems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -30,6 +31,7 @@ public class MerlonosWeapons
         ModCreativeModTabs.register(modEventBus);
 
         Moditems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -46,6 +48,7 @@ public class MerlonosWeapons
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(Moditems.STAILIUM);
             event.accept(Moditems.RAW_STAILIUM);
+            event.accept(Moditems.HILT);
         }
     }
 

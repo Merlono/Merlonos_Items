@@ -1,6 +1,7 @@
 package net.merlono.merlonosweapons.item;
 
 import net.merlono.merlonosweapons.MerlonosWeapons;
+import net.merlono.merlonosweapons.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,8 @@ public class ModCreativeModTabs {
                     .displayItems((p_270258_, p_259752_) -> {
                         p_259752_.accept(Moditems.STAILIUM.get());
                         p_259752_.accept(Moditems.RAW_STAILIUM.get());
+                        p_259752_.accept(Moditems.HILT.get());
+                        p_259752_.accept(ModBlocks.STAILIUM_BLOCK.get());
 
 
                     })
