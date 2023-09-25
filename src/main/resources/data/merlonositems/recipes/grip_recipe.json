@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##s",
+    "#l#",
+    "s##"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stick",
+    },
+    "l": {
+      "item": "minecraft:leather"
+    },
+    "#": {
+      "item": "minecraft:air"
+    }
+  },
+  "result": {
+    "item": "merlonositems:grip"
+  }
+}

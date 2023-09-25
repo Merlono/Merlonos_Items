@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#ii",
+    "#gi",
+    "i##"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron",
+    },
+    "g": {
+      "item": "merlonositems:grip"
+    },
+    "#": {
+      "item": "minecraft:air"
+    }
+  },
+  "result": {
+    "item": "merlonositems:stailium_block"
+  }
+}

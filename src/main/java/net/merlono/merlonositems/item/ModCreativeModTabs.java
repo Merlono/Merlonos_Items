@@ -23,6 +23,7 @@ public class ModCreativeModTabs {
                         p_259752_.accept(Moditems.HILT.get());
                         p_259752_.accept(ModBlocks.STAILIUM_BLOCK.get());
                         p_259752_.accept(ModBlocks.RAW_STAILIUM_BLOCK.get());
+                        p_259752_.accept(Moditems.GRIP.get());
 
 
                     })

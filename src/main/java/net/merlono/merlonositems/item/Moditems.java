@@ -18,6 +18,8 @@ public class Moditems {
 
     public static final RegistryObject<Item> HILT = ITEMS.register( "hilt",
             () ->  new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GRIP = ITEMS.register( "grip",
+            () ->  new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

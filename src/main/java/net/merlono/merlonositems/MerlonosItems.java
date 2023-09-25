@@ -49,6 +49,7 @@ public class MerlonosItems
             event.accept(Moditems.STAILIUM);
             event.accept(Moditems.RAW_STAILIUM);
             event.accept(Moditems.HILT);
+            event.accept(Moditems.GRIP);
         }
     }
 

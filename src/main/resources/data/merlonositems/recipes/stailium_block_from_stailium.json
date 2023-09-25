@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "merlonositems:stailium"
+    }
+  },
+  "result": {
+    "item": "merlonositems:stailium_block"
+  }
+}

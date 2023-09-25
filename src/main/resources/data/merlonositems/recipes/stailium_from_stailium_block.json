@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "items": "merlonositems:stailium_block"
+    }
+  ],
+  "result": {
+    "item": "merlonositems:stailium",
+    "count": 9
+  }
+}
