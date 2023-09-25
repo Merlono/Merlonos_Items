@@ -15,10 +15,10 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MerlonosItems.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> MERLONOS_WEAPONS = CREATIVE_MODE_TABS.register("merlonos_items",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Moditems.STAILIUM.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Moditems.STAILIUM_INGOT.get()))
                     .title(Component.translatable("creativetab.merlonos_items"))
                     .displayItems((p_270258_, p_259752_) -> {
-                        p_259752_.accept(Moditems.STAILIUM.get());
+                        p_259752_.accept(Moditems.STAILIUM_INGOT.get());
                         p_259752_.accept(Moditems.RAW_STAILIUM.get());
                         p_259752_.accept(Moditems.HILT.get());
                         p_259752_.accept(ModBlocks.STAILIUM_BLOCK.get());

@@ -11,7 +11,7 @@ public class Moditems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, MerlonosItems.MOD_ID);
 
-    public static final RegistryObject<Item> STAILIUM = ITEMS.register( "stailium",
+    public static final RegistryObject<Item> STAILIUM_INGOT = ITEMS.register( "stailium_ingot",
             () ->  new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_STAILIUM = ITEMS.register( "raw_stailium",
             () -> new Item(new Item.Properties()));

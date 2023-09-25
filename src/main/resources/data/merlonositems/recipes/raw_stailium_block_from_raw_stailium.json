@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "merlonositems:stailium_ingot"
+      "item": "merlonositems:raw_stailium"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
     "###"
   ],
   "result": {
-    "item": "merlonositems:stailium_block"
+    "item": "merlonositems:raw_stailium_block"
   }
 }

@@ -46,7 +46,7 @@ public class MerlonosItems
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(Moditems.STAILIUM);
+            event.accept(Moditems.STAILIUM_INGOT);
             event.accept(Moditems.RAW_STAILIUM);
             event.accept(Moditems.HILT);
             event.accept(Moditems.GRIP);
