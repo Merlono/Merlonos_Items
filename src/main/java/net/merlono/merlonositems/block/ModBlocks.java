@@ -20,6 +20,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> STAILIUM_BLOCK = registryBlock("stailium_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> RAW_STAILIUM_BLOCK = registryBlock("raw_stailium_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS)));
 
     private static <T extends Block> RegistryObject<T> registryBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

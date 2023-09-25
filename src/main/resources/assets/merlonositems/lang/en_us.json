@@ -3,5 +3,8 @@
   "item.merlonositems.raw_stailium": "Raw Stailium",
   "item.merlonositems.hilt": "Hilt",
 
+  "block.merlonositems.stailium_block": "Block of Stailium",
+  "block.merlonositems.raw_stailium_block": "Block of Raw Stailium",
+
   "creativetab.merlonos_items": "Merlono's Items"
 }
