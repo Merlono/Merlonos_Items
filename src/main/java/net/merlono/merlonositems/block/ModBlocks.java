@@ -2,10 +2,12 @@ package net.merlono.merlonositems.block;
 
 import net.merlono.merlonositems.MerlonosItems;
 import net.merlono.merlonositems.item.Moditems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -23,6 +25,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> RAW_STAILIUM_BLOCK = registryBlock("raw_stailium_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS)));
 
+    public static final RegistryObject<Block> END_STONE_STAILIUM_ORE = registryBlock("end_stone_stailium_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(4,8)));
     private static <T extends Block> RegistryObject<T> registryBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
